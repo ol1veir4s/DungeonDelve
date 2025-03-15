@@ -124,7 +124,8 @@ typedef struct {
     
     bool isServer;
     bool isClient;
-
+    char serverIP[16];
+    
     char ipInput[MAX_INPUT_CHARS + 1];
     int sock;
     int letterCount;

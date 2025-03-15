@@ -107,7 +107,7 @@ void handleWorldSettingsSelection(MenuData* menuData, MenuSounds* menuSounds) {
             menuData->selectedOption = 0;
             break;
         case 3:  // Start Game
-            startSinglePlayer();
+            initGame();
             break;
     }
 }
@@ -193,6 +193,12 @@ void UpdateOptions(MenuData* menuData, MenuSounds* menuSounds) {
                 break;
             case MENU_MULTIPLAYER:
                 handleMultiplayerSelection(menuData, menuSounds);
+                break;
+
+            case MENU_CONNECTING:
+                break;
+            
+            case MENU_HOSTING:
                 break;
         }
     }

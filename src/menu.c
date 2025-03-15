@@ -83,12 +83,12 @@ MenuData* menu_screen(void) {
                 menuData->isServer = true;
                 menuData->isClient = false;
 
-                startSinglePlayer();
+                initGame();
                 break;
             case MENU_CONNECTING:
                 menuData->isClient = true;
                 menuData->isServer = false;
-                startSinglePlayer();
+                initGame();
                 break;
         }
 
@@ -226,7 +226,7 @@ void DrawOption(const char *text, Rectangle optionRect, Color color) {
     DrawText(text, optionRect.x + 10, optionRect.y + 10, 30, WHITE);
 }
 
-void startSinglePlayer(void) {
+void initGame(void) {
     InitRandomSeed((void*)(uintptr_t)menuData->MapSeed);
     menuData->TileMapGraph = InitMap(menuData->MapSize);
     menuData->TileMapGraph->updateEnemies = &UpdateEnemiesMap;

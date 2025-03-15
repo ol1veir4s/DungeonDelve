@@ -26,8 +26,6 @@
 #define WALL_PATH "res/static/wall.png"
 #define FIRE_ANIM_PATH "res/static/fire.gif"
 #define RAIN_ANIM_PATH "res/static/rain.gif"
-#define PORT 12345
-#define GAME_SERVER_IP "127.0.0.1"
 #define BACKGROUND_MENU_MUSIC "res/sounds/menu_background.mp3"
 #define CHANGE_OPTION_SOUND "res/static/change_option.mp3"
 #define SELECT_OPTION_SOUND "res/static/select.mp3"
@@ -60,12 +58,7 @@ void DrawDifficultyMenu(int selectedOption);
 void DrawMultiplayerMenu(int selectedOption);
 void DrawWorldSettings(int selectedOption);
 void DrawOption(const char *text, Rectangle optionRect, Color color);
-void startSinglePlayer(void);
 
-void DrawHostingMenu(int selectedOption);
-void DrawConnectMenu(int selectedOption);
-
-int startHosting(void);
-int startConnection(void);
+void initGame(void);
 
 #endif
