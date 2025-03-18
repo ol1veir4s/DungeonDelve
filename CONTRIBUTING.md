@@ -69,7 +69,3 @@ All contributions will be reviewed. Feedback may be provided for improvements or
 ## License
 
 By contributing to this project, you agree that your contributions will be licensed under the [GNU GENERAL PUBLIC LICENSE] license. See the file for details.
-
-## Contact
-
-If you have any questions or need further assistance, feel free to contact us at [gssantoz2012@gmail.com].

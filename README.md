@@ -1,10 +1,11 @@
 # Dungeon Delve C
 
-- Dungeon Delve C is 2D game crafted in C, by the Raylib library. Engineered with versatility in mind, it is designed to seamlessly run on any operating system, catering to both high-end and low-end hardware configurations. 
+This is an [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) 2D game crafted in C, by the Raylib library. with versatility in mind, it is designed to seamlessly run on any operating system, catering to both high-end and low-end hardware configurations. 
 
-<img src="res/readme/game.png" alt="Window" align="center">
-
-- Immerse yourself in a thrilling adventure where players navigate through dynamic environments teeming with challenging obstacles, promising an engaging and immersive gaming experience for all.
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="res/readme/game.png" alt="Game" style="width: 500px; height: 500px;">
+    <img src="res/readme/multiplayer.png" alt="Multiplayer" style="width: 500px; height: 500px;">
+</div>
 
 ## How to Run
 
