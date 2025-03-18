@@ -105,7 +105,7 @@ struct MapNode{
     Enemy** enemies;         // Array of enemies in the map
 
     void (*updateEnemies)(MapNode*, float, unsigned int, Player*); // Function pointer to update the enemies in the map
-    void (*drawEnemies)(MapNode*);                        // Function pointer to draw the enemies in the map
+    void (*drawEnemies)(MapNode*);                                  // Function pointer to draw the enemies in the map
     void (*drawMap)(MapNode*, Camera2D);                            // Function pointer to draw the map
 };
 

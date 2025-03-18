@@ -81,13 +81,11 @@ MenuData* menu_screen(void) {
                 break;
             case MENU_HOSTING:
                 menuData->isServer = true;
-                menuData->isClient = false;
-
                 initGame();
                 break;
             case MENU_CONNECTING:
                 menuData->isClient = true;
-                menuData->isServer = false;
+                strcpy(menuData->serverIP, "127.0.0.1");
                 initGame();
                 break;
         }
@@ -103,6 +101,8 @@ MenuData* menu_screen(void) {
 
 void InitData(void) {
     menuData = (MenuData*)malloc(sizeof(MenuData));
+    menuData->isClient = false;
+    menuData->isServer = false;
     menuData->currentState = MENU_MAIN;  // Start at main menu
     menuData->isRaining = false;
     menuData->MapSize = 100;
