@@ -3,8 +3,8 @@
 This is an [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) 2D game crafted in C, by the Raylib library. with versatility in mind, it is designed to seamlessly run on any operating system, catering to both high-end and low-end hardware configurations. 
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="res/readme/game.png" alt="Game" style="width: 500px; height: 500px;">
-    <img src="res/readme/multiplayer.png" alt="Multiplayer" style="width: 500px; height: 500px;">
+    <img src="res/readme/game.png" alt="Game" style="width: 300px; height: 300px;">
+    <img src="res/readme/multiplayer.png" alt="Multiplayer" style="width: 300px; height: 300px;">
 </div>
 
 ## How to Run
